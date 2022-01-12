@@ -1,0 +1,24 @@
+{
+  symbol: 'BTTBRL',
+  orderId: 12896716,
+  orderListId: -1,
+  clientOrderId: '7iRP6Jok1GRxVuxcoVdzEi',
+  transactTime: 1642027429352,
+  price: '0.00000000',
+  origQty: '1000.00000000',
+  executedQty: '1000.00000000',
+  cummulativeQuoteQty: '14.53000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '0.01453000',
+      qty: '1000.00000000',
+      commission: '1.00000000',
+      commissionAsset: 'BTT',
+      tradeId: 738305
+    }
+  ]
+}

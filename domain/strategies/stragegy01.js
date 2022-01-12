@@ -6,7 +6,7 @@ class Strategy01 {
     
     constructor() {
         this.moeda = '';
-        this.compra = 0;
+        this.compra = 241985;
         this.venda = 0;
         this.lucro = 0;
         this.historicoCompra = [];
@@ -39,7 +39,12 @@ class Strategy01 {
         };
         this.historicoMargem.push(log);
     }
-
+        async run2(){
+            // console.log(await BinanceService.getAccountInfo('BRL'));
+           // console.log(await BinanceService.newOrder('BTTBRL'));
+           // console.log(await BinanceService.newOrder('BTTBRL'));
+            console.log(await BinanceService.sellOrder('BTTBRL'));
+        }
     async run() {
         this.historicoCompra = [];
         this.historicoVenda = [];

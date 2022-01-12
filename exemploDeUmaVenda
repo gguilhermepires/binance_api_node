@@ -1,0 +1,16 @@
+{
+  symbol: 'BTTBRL',
+  orderId: 12896811,
+  orderListId: -1,
+  clientOrderId: '9vUyzfhNFyjbFGs32LFL34',
+  transactTime: 1642028570043,
+  price: '0.02906000',
+  origQty: '999.00000000',
+  executedQty: '0.00000000',
+  cummulativeQuoteQty: '0.00000000',
+  status: 'NEW',
+  timeInForce: 'GTC',
+  type: 'LIMIT',
+  side: 'SELL',
+  fills: []
+}
